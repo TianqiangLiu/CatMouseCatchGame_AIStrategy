@@ -1,0 +1,18 @@
+The best AI strategy is BFS and A* with my third heuristic function(Average of the distance from the cat to the mouse and the distance from the cat to the closest cheese).
+
+I use three heuristics:
+						1. the distance from the cat to the mouse
+						2. the distance between the cat and the closest cheese from the mouse.
+						3. the average.
+
+The combination is better than individually. because they cover each others disadvantage.
+
+If increase the size of the board to 30*30, I believe the A* strategy is becoming the best. The DFS will be very slow.
+
+average moves: BFS:5
+				DFS:8
+				A*1:6
+				A*2:6
+				A*3:5
+				
+If increase the speed of the mouse, means it is difficult to catch the mouse. So it better to use BFS and A* to get optimal solution.
